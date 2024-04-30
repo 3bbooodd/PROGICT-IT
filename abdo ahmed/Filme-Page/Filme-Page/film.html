@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <title> Avengers | Landing Page UI Design</title>
+  <link rel="stylesheet" href="../../../abdo ibra/project it css.css">
+</head>
+<body class="bd">
+  <div id="abdo2">
+  <audio autoplay loop>
+    <source src="oudio/FSO 2015 Oficial.mp3" type="audio/mp3">
+  </audio>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Shahid</label>
+    <ul id="nav">
+      <li><a href="../../../index.html">Home</a></li>
+      <li><a href="../../../abdo adel/project.html">About</a></li>
+      <li><a href="..//tarek/project 3.html">Subscribe</a></li>
+      <li><a href="..//abdo moha/contact us.html">Contact</a></li>
+      <li><a href="">Feedback</a></li>
+      <li><a href="..//abdo magdy/project it help center/Help Center.HTML">Help Center</a></li>
+    </ul>
+    <header>
+      <a href="#" class="logo" style="padding: 30px;"><img src="image/logo.png"></a>
+    </header>
+  </nav>
+
+  <div class="banner">
+    <div class="content">
+      <h2>Action Movie</h2>
+      <p>Enemy portals pierce the sky. Nick Fury calls upon legends: Iron Man, Captain America, Thor, Hulk. 
+         A world on the brink.  Can Earth's mightiest heroes assemble in time?  
+         This summer, witness the epic team-up - The Avengers.</p>
+        <a href="#" class="play" onclick="toggle();"><img src="image/play.png">Watch Trailer</a>
+        <div class="slide"></div>
+        <ul class="sci">
+          <li><a href="#"><img src="image/facebook.png"></a></li>
+          <li><a href="#"><img src="image/instagram.png"></a></li>
+          <li><a href="#"><img src="image/twitter.png"></a></li>
+        </ul>
+    </div>
+  </div>
+  <div class="trailer">
+    <video src="video/Marvel's The Avengers- Trailer (OFFICIAL).mp4" controls="true"></video>
+    <img src="image/close.png" class="close" onclick="toggle();">
+  </div>
+
+    
+      <iframe class="frame"  src="https://www.youtube.com/embed/6ZfuNTqbHE8" title="Marvel Studios&#39; Avengers: Infinity War Official Trailer" frameborder="0" allow="accelerometer; 
+      autoplay; clipboard-write; encrypted-media; 
+      gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="wrapper">
+		<h3>Give me your opinion</h3>
+		<form action="#">
+			<div class="rating">
+				<input type="number" name="rating" hidden>
+				<i class='bx bx-star star' style="--i: 0;"></i>
+				<i class='bx bx-star star' style="--i: 1;"></i>
+				<i class='bx bx-star star' style="--i: 2;"></i>
+				<i class='bx bx-star star' style="--i: 3;"></i>
+				<i class='bx bx-star star' style="--i: 4;"></i>
+			</div>
+			<textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..."></textarea>
+			<div class="btn-group">
+				<button type="submit" class="btn submit">Submit</button>
+				<button class="btn cancel">Cancel</button>
+			</div>
+		</form>
+	</div>
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Points</th>
+        <th>Team</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Abdelrahman</td>
+        <td>88,110</td>
+        <td>dcode</td>
+      </tr>
+      <tr class="active-row">
+        <td>2</td>
+        <td>Sally</td>
+        <td>72,400</td>
+        <td>Students</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ahmed</td>
+        <td>52,300</td>
+        <td>dcode</td>
+      </tr>
+    </tbody>
+  </table>
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+  </div>
+  <script type="text/javascript">
+    function toggle(){
+      var trailer = document.querySelector('.trailer');
+      var video = document.querySelector('video');
+      trailer.classList.toggle('active')
+      video.currentTime = 0;
+      video.pause() ;
+    }
+  </script>
+   
+  <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+  footer {
+  background-color: #101010;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+    width: 100%;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+</style>

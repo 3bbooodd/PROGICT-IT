@@ -1,0 +1,120 @@
+.HR { /*!start background css............................................................*/
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  background-image: url("Peaky\ Blinders.jpg"); /* مسار الصورة */
+  background-size: cover; /* جعل الخلفية تغطي الشاشة بأكملها */
+  background-position: center; /* محاذاة الصورة إلى المركز */
+  background-attachment: fixed;
+}/*!end................................................................*/
+
+.HR .HRO{/*?start all css............................................................*/
+.nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav button:hover {
+    background-color: black;
+}
+
+.page {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.film-image {
+ width: 200  ;
+  height: 200;
+  padding: 20px;
+}
+.film-image img{
+  width:200 ;
+  height: 200;
+  padding: 20px;
+}
+.film-image img{
+  width: 200  ;
+  height: 200;
+  padding: 20px;
+  
+}
+.film-trailer{
+  width: 200;
+  height: 200;
+  padding:50px ;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+.container {
+    max-width :1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0); /* خفض الشفافية لجعل الظل مرئيًا */
+    border-radius: 10px; /* إضافة حواف مستديرة */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0); /* إضافة ظل */
+}
+.film-info {
+    width: 80%; /* عرض الجدول */
+    margin: 0 auto; /* وسطي الجدول */
+    border-collapse: collapse; /* إزالة المسافات بين الخلايا */
+}
+
+/* تنسيق رأس الجدول */
+.film-info thead th {
+    background-color: #333; /* لون الخلفية للرأس */
+    color: white; /* لون النص */
+    padding: 10px; /* وسادة */
+    text-align: left; /* محاذاة إلى اليسار */
+}
+
+/* تنسيق خلايا الجدول */
+.film-info tbody td {
+    padding: 10px; /* وسادة */
+    border: 1px solid #ddd; /* حدود الخلايا */
+    text-align: left; /* محاذاة إلى اليسار */
+}
+
+/* إضافة لون للخلفية بالتناوب */
+.film-info tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* خلفية فاتحة للتناوب */
+}
+
+.film-info tbody tr:nth-child(even) {
+    background-color: white; /* خلفية بيضاء للتناوب */
+}
+}/*?end................................................................*/
