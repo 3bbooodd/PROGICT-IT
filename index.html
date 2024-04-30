@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shahid</title>
+    <link rel="icon" type="image/x-icon" href="photos&videos/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project it css.css">
+    <script src="https://kit.fontawesome.com/d3204aa54b.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="homebody">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">Shahid</label>
+        <ul id="navv">
+          <li><a href="home page.html">Home</a></li>
+          <li><a href="..//abdo adel/project.html">About</a></li>
+          <li><a href="..//tarek/project 3.html">Subscribe</a></li>
+          <li><a href="..//abdo moha/contact us.html">Contact</a></li>
+          <li><a href="">Feedback</a></li>
+          <li><a href="..//abdo magdy/project it help center/Help Center.HTML">Help Center</a></li>
+        </ul>
+      </nav>
+      <div id="main2">
+    <div id="main-content">
+      <button onclick="lightMode()" class="darkmode" id="dark"><i class="fa-regular fa-moon"></i></button>
+      <button onclick="DarkMode()" class="darkmode" id="light"><i class="fa-solid fa-moon"></i></button>
+      <div class="search-container">
+        <div class="search-input">
+            <input type="text" id="myInput" placeholder="Name of movie...">
+            <i class="fa-solid fa-magnifying-glass" id="logosearch"><input type="submit" id="searchBtn" value="Search"></i>
+            <div class="autocomplete-items" id="autocomplete-list"></div>
+        </div>
+    </div>
+      <div class="nav-button">
+        <a href="login form.html"><button class="btn" id="loginbtn">Sign In</button></a>
+        <a href=""><button class="btn" id="registerbtn">SIGN UP</button></a>
+      </div>
+      <div class="nav-button" id="img">
+        <a href="..//abdo adel/movie.html"><button type="button" class="btn" id="Action">ACTION</button></a>
+        <a href="#"><button type="button" class="btn" id="comedy">COMEDY</button></a>
+        <a href="..//tarek/project 2.html"><button type="button" class="btn" id="adventure">ADVENTURE</button></a>
+        <a href="#"><button type="button" class="btn" id="animation">ANIMATION</button></a>
+        <a href="#"><button type="button" class="btn" id="horror">HORROR</button></a>
+        <a href="..//abdo moha/Tokyo Drift.html"><button type="button" class="btn" id="crime">CRIME</button></a>
+        <a href="..//abdo magdy/project it movies/movies..it.project..HTML"><button type="button" class="btn" id="family">FAMILY</button></a>
+        <a href="#"><button type="button" class="btn" id="science">SCIENCE-FICTION</button></a>
+      </div>
+    </div>
+    <audio src="music.mp3" autoplay loop></audio>
+    <video src="photos&videos/videoo.mp4" controls autoplay loop width="560" height="315" id="vadioo"></video>
+    <iframe src="https://shahid.mbc.net/en" frameborder="0" id="iframe"></iframe>
+    <table class="table">
+      <tr>
+          <th>Plan</th>
+          <th>Price</th>
+          <th>Duration</th>
+          <th>Features</th>
+      </tr>
+      <tr>
+          <td>Basic</td>
+          <td class="price">$9.99</td>
+          <td>Monthly</td>
+          <td>Just one device & low Quality</td>
+      </tr>
+      <tr>
+          <td>Pro</td>
+          <td class="price">$19.99</td>
+          <td>Monthly</td>
+          <td>Up To 3 devices & 1080 HD</td>
+      </tr>
+      <tr>
+          <td>Enterprise</td>
+          <td class="price">$49.99</td>
+          <td>Monthly</td>
+          <td>Up To 7 devices & 4k</td>
+      </tr>
+  </table>
+    <footer>
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+      </div>
+    <script src="js home.js"></script>
+    <script>
+      function DarkMode() {
+          document.getElementById("homebody").style.background = "#0f218a";
+      }
+      function lightMode() {
+          document.getElementById("homebody").style.background = "#2e7285";
+      }
+  </script>
+  </body>
+</html>
