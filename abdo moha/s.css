@@ -1,0 +1,785 @@
+.STRR{ /*contact us page background css.............................................................*/
+  background: url(image/BKG.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(45, 45, 45);
+  color: rgba(255, 250, 250, 0.705);
+  }/*l7d hna.......................................................................................*/
+
+.STRR .LDD{/*contact us all css..............................................................................*/
+
+  @import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+  *
+  {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins' , sans-serif;
+  }
+  .contact
+  {
+      position: relative;
+      min-height: 100vh;
+      padding: 50px 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .contact .contentv
+  {
+      max-width: 800px;
+      text-align: center;
+  }
+  .contact .contentv h2
+  {
+      font-size: 36px;
+      font-weight: 500;
+      color: rgba(255, 250, 250, 0.705);
+  }
+  .contact .contentv p
+  {
+      font-weight: 300;
+      color: rgba(255, 250, 250, 0.705);
+  }
+  .container
+  {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: normal;
+      margin-top: 30px;
+  }
+  .container .contactInfo
+  {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+  }
+  .container .contactInfo .box
+  {
+      position: relative;
+      padding: 20px 0;
+      display: flex;
+  }
+  .container .contactInfo .box .icon{
+      min-width: 60px;
+      height: 60px;
+      background: #fff;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 22px;
+      box-shadow: 3px 4px #181717;
+  }
+  .container .contactInfo .box .text
+  {
+      display: flex;
+      margin-left: 20px;
+      font-size: 16px;
+      color: rgba(255, 250, 250, 0.705);
+      flex-direction: column;
+      font-weight: 300;
+      text-shadow: 2px 3px #181717;
+  }
+  .container .contactInfo .box .text h3
+  {
+      font-weight: 500;
+      color: cadetblue;
+  
+  }
+  .contactForm
+  {
+      width: 100%;
+      padding: 40px;
+      background: #fff;
+      border-radius: 25px;
+      box-shadow: 4px 6px #181717;
+  }
+  .contactForm h2
+  {
+      font-size: 30px;
+      color: #333;
+      font-weight: 500;
+  }
+  .contactForm .inputBox
+  {
+      position: relative;
+      width: 100%;
+      margin-top: 10px;
+  }
+  .contactForm .inputBox input,
+  .contactForm .inputBox textarea
+  {
+     width: 100%;
+     padding: 5px 0;
+     font-size: 16px;
+     margin: 10px 0;
+     border: none;
+     border-bottom: 2px solid #333;
+     outline: none;
+     resize: none;
+  }
+  .contactForm .inputBox span
+  {
+      position: absolute;
+      left: 0;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      pointer-events: none;
+      transition: 0.5s;
+      color: #666;
+  }
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid ~ span,
+  .contactForm .inputBox textarea:focus ~ span,
+  .contactForm .inputBox textarea:valid ~ span
+  {
+      color: cadetblue;
+      font-size: 12px;
+      transform: translateY(-20px);
+  }
+  .contactForm .inputBox input[type="submit"]
+  {
+      width: 100px;
+      background: cadetblue;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+  }
+  
+  @media (max-width: 991px)
+  {
+      .contact
+      {
+          padding: 50px;
+      }
+      .container
+      {
+          flex-direction: column;
+      }
+      .container .contactInfo
+      {
+          margin-bottom: 40px;
+      }
+      .container .contactInfo
+      {
+          width: 100%;
+      }
+  }
+  
+
+
+
+
+  .bar2{
+    display: none;
+  }
+  nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding-inline-start: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background:#1643cb;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  }
+  
+  .Boxxxo{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: transparent linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+    border: 1px solid rgba(225,225,225,0.18);
+    border-radius: 20px;
+    box-shadow: 0px 8px 32px rgba(0,0,0,0.37);
+  }
+  
+  .FOTO {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+  }
+  .FOTO a {
+    color: #fff;
+    text-decoration: none;
+  }
+} /*l7d hna.......................................................................................*/
+
+
+
+  
+
+
+.STR{/*!Tokyo Drift page background css................................................................*/
+  background-image: url(image/KG2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 250, 250, 0.705);
+}/*!l7d hna.................................................................................................*/
+
+.STR .LD{/*!Tokyo Drift page all css........................................................................*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+.dio{
+  margin-right: 55%;
+  text-align: center;
+}
+
+
+h1{
+    text-shadow:6px 6px 6px #161515;
+}
+
+.iono{
+  text-align: left;
+  margin-right: 20%;
+}
+
+.G, .popup_box{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.G{
+    clear: both;
+    border: 2px solid #86808000;
+    color: #e4d2f0;
+    border-radius: 25px; 
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.37);
+    background: transparent;
+    font-weight: bold;
+    font-family: arial;
+    cursor: pointer;
+    
+}
+
+.G:hover{
+    background-color: #acacac3a;
+}
+
+.ADJO{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: transparent linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+  border: 1px solid rgba(225,225,225,0.18);
+  border-radius: 20px;
+  box-shadow: 0px 8px 32px rgba(0,0,0,0.37);
+}
+
+
+.Poster-containero{
+    float: left;
+    width: 14.5%;
+    height: 300px;
+    border: 1px solid rgba(225,225,225,0.18);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.desc{
+  margin-left: 5%;
+  font-size: x-large;
+}
+
+.capo{
+  margin-left: 0%;
+  margin-top: 11.8%;
+  color: rgba(255, 250, 250, 0.705);
+}
+
+
+.video-containero video{
+    width: 710px;
+    height: 400px;
+    border:2px solid #aeadb6;
+    box-shadow: 0px 32px 32px rgba(0,0,0,0.37);
+    margin-left: -20%;
+    float: left;
+}
+
+.video-containero {
+    width: 400px;
+    text-align: center;
+    margin-left: 8%;
+}
+
+.ADJOT{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: transparent linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+  border: 1px solid rgba(225,225,225,0.18);
+  border-radius: 20px;
+  box-shadow: 0px 8px 32px rgba(0,0,0,0.37);
+}
+
+ .Starso{
+    font-size: xx-large;
+    margin-top: 20px;
+    clear: both;
+    color: rgba(255, 250, 250, 0.705);
+ }
+
+ .listo{
+    font-size: x-large;
+    clear: both;
+    float: left;
+    color: rgba(254, 255, 252, 0.74);
+} 
+
+.tbl{
+  background: transparent;
+  margin-left: 25%;
+}
+
+
+.popup_box{
+    clear: both;
+    width: 400px;
+    background: transparent linear-gradient(135deg, rgb(0, 0, 0), rgba(225,225,225,0));
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(225,225,225,0.18);
+    border-radius: 20px;
+    box-shadow: 0px 8px 32px rgba(0,0,0,0.37);
+    z-index: 9999;
+    display: none;
+    margin-bottom: 0px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .popup_box h1{
+    font-size: 30px;
+    color: #c5d3e0;
+  }
+  .popup_box label{
+    font-size: 23px;
+    color: #c2b9b9;
+  }
+  .popup_box .btns{
+    margin: 40px 0 0 0;
+  }
+  .btns .btn1, .btns .btn2{
+    background: #999999;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    padding: 10px 13px;
+  }
+  .btns .btn2{
+    margin-left: 20px;
+    background: #39664a;
+    border: 1px solid #826f8a;
+  }
+  .btns .btn1:hover{
+    transition: .5s;
+    background: #8c8c8c;
+  }
+  .btns .btn2:hover{
+    transition: .5s;
+    background: #00e61f;
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+  *{
+    box-sizing: border-box;
+  }
+ 
+  .containerL{
+    clear: both;
+    position: relative;
+    width: 400px;
+    background: transparent;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 34%;
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.37);
+    border-radius: 25px;
+  }
+  .containerL .post{
+    display: none;
+  }
+  .containerL .text{
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+  }
+  .containerL .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .containerL .edit:hover{
+    text-decoration: underline;
+  }
+  .containerL .star-widget input{
+    display: none;
+  }
+  .star-widget label{
+    font-size: 40px;
+    color: transparent;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+  }
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+  input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  #rate-1:checked ~ form header:before{
+    content: "I just hate it 😕 ";
+  }
+  #rate-2:checked ~ form header:before{
+    content: "I don't like it 🙁 ";
+  }
+  #rate-3:checked ~ form header:before{
+    content: "It is awesome 😎 ";
+  }
+  #rate-4:checked ~ form header:before{
+    content: "I just like it 🥰 ";
+  }
+  #rate-5:checked ~ form header:before{
+    content: "I just love it 😍 ";
+  }
+  .containerL form{
+      display: none;
+  }
+  input:checked ~ form{
+    display: block;
+  }
+  form header{
+    width: 100%;
+    font-size: 25px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  form .textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  }
+  form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    border: 1px solid #333;
+    background: transparent;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+    border: 1px solid rgba(225,225,225,0.18);
+    border-radius: 20px;
+  }
+  .textarea textarea:focus{
+    border-color: #ffffff;
+  }
+  form .btn{
+    height: 45px;
+    width: 100%;
+  }
+  form .btn button{
+    border-radius: 25px;
+    height: 100%;
+    width: 30%;
+    border: 1px solid #444;
+    outline: none;
+    background: transparent;
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form .btn button:hover{
+    background: transparent linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.movie-listL {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-itemL {
+  width: 20%;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: transparent linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+  border: 1px solid rgba(225,225,225,0.18);
+  border-radius: 20px;
+  box-shadow: 0px 8px 32px rgba(0,0,0,0.37);
+}
+
+.movie-itemL img {
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#m1 {
+  width: 30%;
+}
+
+.movie-itemL:hover {
+  transform: scale(1.2);
+}
+
+.movie-itemL:active {
+  transform: scale(1.1);
+}
+
+
+
+
+
+.bar2{
+  display: none;
+}
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color:white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding-inline-start: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background:#1643cb;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+nav ul li{
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+nav ul li a{
+  font-size: 20px;
+}
+a:hover,a.active{
+  background: none;
+  color: #0082e6;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+}
+
+.Boxxxo{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: transparent linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+  border: 1px solid rgba(225,225,225,0.18);
+  border-radius: 20px;
+  box-shadow: 0px 8px 32px rgba(0,0,0,0.37);
+}
+
+.FOTO {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+}
+.FOTO a {
+  color: #fff;
+  text-decoration: none;
+}
+
+}/*!l7d hna..............................................................................*/

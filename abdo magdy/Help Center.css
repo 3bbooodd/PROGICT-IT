@@ -1,0 +1,505 @@
+
+.AMO {/**Help center page background css............................................**/
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}/**l7d hna**/
+
+.AMO .AMOMO{/**Help center page all css...........................................**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+  
+}
+
+.nav-menu a {
+    color: #fff;
+}
+
+.nav-menu a:hover {
+    color: #41b173;
+   
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 2px solid #745d5d;
+    background-color: #e8e9a6;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.help-categories {
+    display: flex;
+    margin: 4rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+
+.category-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-item {
+    margin-bottom: 0.5rem;
+}
+
+.link {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #d4a82383;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #73739b;
+}
+
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-social-links img {
+    width: 30px; 
+    height: auto;
+    border-radius: 80%;
+    
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social-links a:hover {
+    background-color: #41b173;
+    color: #fff;
+}
+
+#alarmButton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.help-table {
+    margin-top: 2rem;
+}
+
+.help-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.help-table th,
+.help-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.help-table th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.help-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.search-container {
+  display: flex;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-left: 35%;
+}
+
+.search-container input[type=text] {
+  width: 20rem;
+  padding: 0.5rem;
+  border: 1px solid #a3a2a2;
+  border-radius: 0.25rem;
+}
+
+.search-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #307234;
+}
+}/**l7d hna......................................................................**/
+
+
+
+
+
+.AWO {/*?Mommies Group page background css.......................................*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}/*?l7d hna......................................................................*/
+
+.AWO .AWOWO{/*?Mommies Group page all css.......................................*/
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    margin-right: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+header .nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+
+header .nav-link:hover {
+    color: #489164;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+ .movie-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+  video {
+    width: 100%;
+    height: auto;
+    margin-right: 2rem;
+    align-content: center;
+  }
+   
+
+  .movie-info {
+    flex-basis: calc(100% - 2rem);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-poster {
+    margin: 5px;
+   
+    margin-right: 2rem;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 2%;display: flex;
+    background-color: #e6f0b2;
+    transition: transform 0.3s ease-in-out ;
+
+  }
+
+  .movie-poster:hover{
+    transform: scale(1.05);
+  }
+
+  .c{
+    margin: 1%;
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+   }
+  
+  .actor-images {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  .actor-image {
+    width: 100px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .actor-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .actor-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+main .feature-movies {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+main .feature-movies h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+main .feature-movies .movie-container {
+   display:flex;
+    margin-top: 1rem;
+}
+
+main .feature-movies .movie-card {
+    width: calc(33.333% - 2rem);
+    margin: 0 1rem 1rem 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+main .feature-movies .movie-card:hover {
+    transform: scale(1.05);
+
+}
+
+main .feature-movies .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main .feature-movies .movie-info {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+main .feature-movies .movie-card:hover .movie-info {
+    opacity: 1;
+}
+
+main .feature-movies .movie-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+main .feature-movies .movie-info p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+main .feature-movies .movie-info button {
+    background-color: #356d41;
+    border-radius: 5px;
+    color: #e2b1b1;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+footer .footer-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer .footer-content p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+footer .footer-content a {
+    color: #ffffff;
+    text-decoration:none;
+    margin-right: 1rem;
+}
+
+footer .social-icons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+footer .social-icons a {
+    display: block;
+    text-align: center;
+    
+    color: #fff;
+    text-decoration:none;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+footer .social-icons a:hover {
+    color: #3f9b6d;
+}
+
+  .dark-mode {
+    background-color: #333;
+  }
+ 
+.dark-mode-btn{
+    position: absolute;
+    top: 10%;
+    left: 3px;
+
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+}/*?l7d hna......................................................................*/
+
+
+

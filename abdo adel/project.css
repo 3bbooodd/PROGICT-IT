@@ -1,0 +1,279 @@
+.rrr{
+  font-family: Arial, sans-serif;
+  background-color:#181d25;
+}
+#abdo1{
+* {
+  margin: 0; /* margin is used here */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #141414;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* margin is used here */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 8px;
+  margin-right: 20px;
+}
+
+.user-profile a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#sss {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-item {
+  width: 20%;
+  background-color: #c4bdbd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(8, 22, 218, 0.1);
+  margin: 22px;
+  transition: all 0.3s;
+}
+
+.movie-item img {
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#m1 {
+  width: 30%;
+}
+
+.movie-item:hover {
+  transform: scale(1.2);
+}
+
+.movie-item:active {
+  transform: scale(1.1);
+}
+
+main section {
+  flex-basis: 100%;
+  margin-bottom: 30px; /* margin is used here */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#film1,
+#film2,
+#film3,
+#film4 {
+  width: 90%;
+}
+
+.movie-list a {
+  text-decoration: none;
+  color: rgb(75, 75, 99);
+}
+.txt{
+  background-color: #999393;
+  border-radius: 5px;
+  width: 12%;
+  margin: 10px;
+}
+ h3{
+  color: blueviolet;
+ }
+
+#partners {
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+}
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.partner-logo {
+  width: 20%;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.partner-logo img {
+  width: 90%;
+  height: 63%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(45, 3, 80, 0.1);
+}
+#shahid{
+  width: 90%;
+  height: 63%;
+}
+
+.partner-logo:hover {
+  transform: scale(1.2);
+}
+
+.partner-logo:active {
+  transform: scale(1.1);
+}
+
+#team {
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.team-member {
+  flex: 0 0 300px;
+  scroll-snap-align: start;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.team-member img {
+  width: 40%;
+  height: 50%;
+  border-radius: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+ 
+.team-member h3 {
+  margin: 10px 0;
+}
+
+.team-member p {
+  margin: 0;
+  color: #000;
+}
+.team-member a{
+  text-decoration: none;
+}
+
+.team-member:hover {
+  transform: scale(1.2);
+}
+
+.team-member:active {
+  transform: scale(1.1);
+}
+
+.reviews {
+  margin: 20px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.review h3 {
+  margin-top: 0;
+}
+
+.social-sharing img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.social-sharing img:hover {
+  transform: scale(1.2);
+}
+
+.social-sharing img:active {
+  transform: scale(1.1);
+}
+
+.info{
+  width: 50%;
+}
+
+
+#change-color-button{
+
+margin-right: 40%;
+transition: all 0.3s ease-in-out;
+padding: 10px;
+border-radius: 10px;
+}
+
+#change-color-button:hover{
+  background-color: rgb(122, 24, 202);
+  transform: scale(1.2);
+}
+#change-color-button:active{
+  transform: scale(1.1);
+}
+}

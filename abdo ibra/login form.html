@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<link rel="stylesheet" href="project it css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/d3204aa54b.js" crossorigin="anonymous"></script>
+</head>
+<body id="loginbody">
+  <div class="abdoo">
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"> 
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Shahid</label>
+    <ul id="navv">
+      <li><a href="home page.html">Home</a></li>
+          <li><a href="..//abdo adel/project.html">About</a></li>
+          <li><a href="..//tarek/project 3.html">Subscribe</a></li>
+          <li><a href="..//abdo moha/contact us.html">Contact</a></li>
+          <li><a href="">Feedback</a></li>
+          <li><a href="..//abdo magdy/project it help center/Help Center.HTML">Help Center</a></li>
+    </ul>
+  </nav>
+  <button onclick="lighttMode()" class="darkmode" id="dark"><i class="fa-regular fa-moon"></i></button>
+      <button onclick="DarkkMode()" class="darkmode" id="light"><i class="fa-solid fa-moon"></i></button>
+  <div class="login-container">
+    <h2>sign in</h2>
+    
+    <form action="/submit-your-login-form" method="post">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group" id="pass">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>  
+        <button type="button" id="">
+          <img src="">
+        </button>
+      </div>
+      <div class="social-login">
+        <a href="#" class="btn-google">
+          <i class="fab fa-google"></i> Login with Google
+        </a>
+      </div>
+      <div class="social-login">
+        <a href="#" class="btn-facebook">
+          <i class="fab fa-facebook-f"></i> Login with Facebook
+        </a>
+      </div>
+      <div class="social-login">
+        <a href="#" class="btn-apple">
+          <i class="fab fa-apple"></i> Login with Apple
+        </a>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Login" id="submit">
+      </div>
+    </form>
+  </div>
+  <footer class="ww">
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+    <p><a href="#" class="ee">Privacy Policy</a> | <a href="#" class="ee">Terms of Service</a></p>
+  </footer>
+  </div>
+  <script src="js home.js"></script>
+</body>
+</html>

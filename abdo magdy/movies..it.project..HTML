@@ -1,0 +1,134 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5Movie Website</title>
+    <link rel="stylesheet" href="../abdo ibra/project it css.css">
+    
+</head>
+<body class="AWO">
+<div class="AWOWO">
+    <header>
+        <nav>
+            <ul>
+              <li><a class="nav-item" href="..//index.html">Home</a></li>
+              <li><a class="nav-item" href="../abdo adel/project.html">About</a></li>
+              <li><a class="nav-item" href="../tarek/project 3.html">Subscribe</a></li>
+              <li><a class="nav-item" href="../abdo moha/contact us.html">Contact</a></li>
+              <li><a class="nav-item" href="#">Feedback</a></li>
+              <li><a class="nav-item" href="Help Center.HTML">Help Center</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="Shahid_logo_light.webp" alt="Movie Website Logo">
+        </div>
+
+        <button id="dark-mode-btn" class="dark-mode-btn">Dark Mode</button>
+    </header>
+    <main>
+        <div class="movie-detail"> 
+
+            <div class="movie-poster">
+                <div class="d">
+                <img src="Thump_Clean_Mommies_Group.webp" alt="Movie Poster" >
+               </div>
+               <div class="c">
+                <h2>Group Mommies</h2>
+                <p>Fed up with life’s responsibilities, three moms, who met through the school’s parents WhatsApp group, decide to take drastic action that affects moms everywhere.</p>
+               
+            
+                <div class="movie-info">
+                    <div class="actor-images">
+                        <h3>stars</h3>
+                        <div class="actor-image">
+                            <img src="Ruby.jpg" alt="Actor 1">
+                            <div class="actor-name">Ruby</div>
+                        </div>
+                        <div class="actor-image">
+                            <img src="Yosra-El-Lozy-1.jpg" alt="Actor 2">
+                            <div class="actor-name">Yosra El Lozy</div>
+                        </div>
+                        <div class="actor-image">
+                            <img src="Dareen Haddad.jpg" alt="Actor 2">
+                            <div class="actor-name">Dareen Haddad</div>
+                        </div>
+                    </div>
+                </div>
+
+
+              </div>
+            </div>
+           
+            <br>
+            <video src="Mommies Group - Movie  Shahid.net.mp4" controls  ></video>
+        </div>
+
+        <section class="feature-movies">
+            <h2>Feature Movies</h2>
+            <div class="movie-container">
+                <div class="movie-card">
+                    <img src="Thump_Clean_Mommies_Group.webp" alt="Movie 1">
+                    <div class="movie-info">
+                        <h3>Group Mommies</h3>
+                        <p>Release Date: 2023-03-15</p>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="Thump_Clean_Mommies_Group.webp" alt="Movie 2">
+                    <div class="movie-info">
+                        <h3>Group Mommies</h3>
+                        <p>Release Date: 2023-03-10</p>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="Thump_Clean_Mommies_Group.webp" alt="Movie 3">
+                    <div class="movie-info">
+                        <h3>Group Mommies</h3>
+                        <p>Release Date: 2023-03-05</p>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+</div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+            <br>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <br>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <br>
+            <a href="#"><i class="fab fa-Contact Us"></i>Contact Us</a>
+            <br>
+            <a href="#"><i class="fab fa-About Us"></i>About Us</a>
+            <br>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+            const darkModeButton = document.getElementById('dark-mode-btn');
+
+        function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+            darkModeButton.textContent = 'Light Mode';
+        } else {
+            darkModeButton.textContent = 'Dark Mode';
+        }
+        }
+
+        darkModeButton.addEventListener('click', toggleDarkMode);
+    </script>
+    
+</div>
+</body>
+</html>
