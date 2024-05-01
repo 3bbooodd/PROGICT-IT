@@ -1,9 +1,4 @@
-.bd {
-  background-color: #3d828d;
-}
 @import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
-#abdo2{
-
 
 *
 {
@@ -490,5 +485,4 @@ outline: none;
   margin: 0 0 0 20px;
   border: 2ox solid black;
   border-radius: 7px;
-}
 }
