@@ -8,10 +8,12 @@ var checkbox = document.getElementById('check');
         }
       });
       const data = [
-            {"word": "group-mamis", "url": "..//abdo magdy/project it movies/movies..it.project..HTML"}
-            , {"word": "skyscraper", "url": "..//abdo adel/movie.html"}
-            ,{"word": "Tokyo Drift", "url": "..//abdo moha/Tokyo Drift.html"}
-            ,{"word": "The Mummy", "url": "..//tarek/project 2.html"}
+            {"word": "group-mamis", "url": "abdo magdy/movies..it.project..HTML"}
+            ,{"word": "skyscraper", "url": "abdo adel/movie.html"}
+            ,{"word": "Tokyo Drift", "url": "abdo moha/Tokyo Drift.html"}
+            ,{"word": "The Mummy", "url": "tarek/project 2.html"}
+            ,{"word": "Peaky blinders", "url": "A Qasem/A Qasem/PK.html"}
+            ,{"word": "Avengers", "url": "abdo ahmed/Filme-Page/Filme-Page/film.html"}
         ];
         const input = document.getElementById("myInput");
         const searchBtn = document.getElementById("searchBtn");
